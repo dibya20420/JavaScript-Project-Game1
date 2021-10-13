@@ -1,0 +1,16 @@
+.Game-2{
+    border: 2px solid red;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.flex-box-cat{
+    border:1px solid blue;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.flex-box-cat img{
+    padding:10px;
+
+}
