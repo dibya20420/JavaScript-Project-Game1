@@ -1,0 +1,13 @@
+.Game-4{
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.flex-box-pick-color{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}

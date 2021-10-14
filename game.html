@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="game_ageInDays.css">
     <link rel="stylesheet" href="game_catGenerator.css">
     <link rel="stylesheet" href="rock_paper_sissor.css">
+    <link rel="stylesheet" href="change_color.css">
 </head>
 <body>
     <div class="Game-1">
@@ -36,16 +37,34 @@
     </div>
 
     <div class="Game-3">
-        <h2 style="text-align: center;">2. Rock, Paper, Sissor</h2>
+        <h2 style="text-align: center;">3. Rock, Paper, Sissor</h2>
         <div class="imagesOfGame3" id="imagesOfAll">
             <img id="rock" src="http://images.clipartpanda.com/rock-clipart-clipart-harvestable-resources-rock.png" alt="imageRock" style="width: 30%;" onclick="rpsGame(this)">
             <img id="paper" src="http://images.clipartpanda.com/paper-clip-art-niEBBqMiA.svg" style="width: 30%;" alt="paperImage" onclick="rpsGame(this)">
             <img id="sissor" src="http://images.clipartpanda.com/scissors-clip-art-11949839942140777322scissors.svg.med.png" style="width: 20%;" onclick="rpsGame(this)">
         </div>
     </div>
+    <div class="Game-4">
+        <h2 style="text-align: center; ">4. Change the colour of all button</h2>
+        <div class="flex-box-pick-color">
+            <form action="">
+                <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                    <option value="reset">Reset</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="random">Random</option>
+                </select>
+            </form>
+            <button class="btn btn-primary">wee!</button>
+            <button class="btn btn-danger">Yahoo</button>
+            <button class="btn btn-warning">Google</button>
+            <button class="btn btn-success">Facebook</button>
+        </div>
+    </div>
 
     <script src="convert_age.js"></script>
     <script src="cat_Generator.js"></script>
     <script src="rock_paper_sissor.js"></script>
+    <script src ="change_clr.js"></script>
 </body>
 </html>
